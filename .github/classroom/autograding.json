@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Sample1",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "5",
+      "output": "Please enter an integer:\r\n5 is an odd number",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Sample2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "12632",
+      "output": "Please enter an integer:\r\n12632 is an even number",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Another Number",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "53",
+      "output": "Please enter an integer:\r\n53 is an odd number",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
